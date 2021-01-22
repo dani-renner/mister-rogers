@@ -22,16 +22,16 @@ $(document).ready(function() {
           }
         } //end of for of loop
         if (has3){
-          roboger.push("Won't you be my neighbor?");
+          roboger.push(" Won't you be my neighbor?");
         }
         else if (has2){
-          roboger.push("Boop!");
+          roboger.push(" Boop!");
         }
         else if (has1){ 
-          roboger.push("Beep!");
+          roboger.push(" Beep!");
         }
         else{
-          roboger.push(i);
+          roboger.push(" "+i);
         } 
       }
       //end of for i loop
