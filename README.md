@@ -1,7 +1,7 @@
-# Language Suggester 
+# Mr. Roboger's Neighborhood 
 
 #### By Dani Renner
-#### Independent project that will gather input from the user to help them decide what coding language to learn
+#### Independent project that will take a number from the user and count up to that number, with some fun exceptions!
 
 
 ## Technologies Used
@@ -15,7 +15,7 @@
 
 ## Description
 
-This project uses forms to allow the users to enter answers to questions/prompts. Then the programs uses branching to provide several different suggestions for what coding language the user may want to learn. These suggestions are mostly unbased. 
+This project uses a form to collect a number from the user. Then the programs uses looping to count up to that number, replacing some of the numbers with alternate phrases.
 
 ## Setup/Installation Requirements
 
@@ -25,9 +25,10 @@ This project uses forms to allow the users to enter answers to questions/prompts
 
 ## Specifications
 
-* Describe: beepBoop()
-* Test: "It should return text that counts up to what the user entered, replacing numbers that contain '3' as one (or more) of the digits with the phrase "Won't you be my neighbor?", numbers that contains '2' with "Boop!" and '1' with "Beep!" 
+* Describe: this program uses a function called beepBoop()
+* Test: "It should return text that counts from 0 up to what the user entered, replacing numbers that contain '3' as one (or more) of the digits with the phrase "Won't you be my neighbor?", numbers that contains '2' with "Boop!" and '1' with "Beep!, in that order of importance!
 * If the number 5 is inputted, the user could expect to see: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5
+* If the number 13 is inputted, the user gets: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?
 
 ## License
 
