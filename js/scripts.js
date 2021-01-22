@@ -1,27 +1,25 @@
 let userNumber = 10;
 let count = 0;
 const roboger = [];
-function beepBoop(number){
-  number=number.toString();
+function beepBoop(userNumber){
+  number=userNumber.toString();
   const digits =[];
   digits.push(number.split(""));
-  for (element of digits){
-    if (element = "3"){
-      return "Won't you be my neighbor?";
-    }
-    else if (element = "2"){
-      return "Boop";
-    }
-    else if (element ="1"){
-      return "Beep!";
-    }
-    else {
-      while (count<=number) {
-        roboger.push(count);
-        count++;
+  digits.forEach(function(element){
+      if (element==="3"){
+        roboger.push("Won't you be my neighbor?");
       }
-      return roboger.toString();
-    }
-  }
+      else if (element==="2"){
+        roboger.push("Boop");
+      }
+      else if (element==="1"){
+        roboger.push("Beep!");
+      }
+      else {
+        roboger.push(count);
+      }
+      count++;
+    });
+  return roboger.toString();
 }
 
