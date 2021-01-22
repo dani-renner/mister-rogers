@@ -26,7 +26,7 @@ This project uses a form to collect a number from the user. Then the programs us
 ## Specifications
 
 * Describe: this program uses a function called beepBoop()
-* Test: "It should return text that counts from 0 up to what the user entered, replacing numbers that contain '3' as one (or more) of the digits with the phrase "Won't you be my neighbor?", numbers that contains '2' with "Boop!" and '1' with "Beep!, in that order of importance!
+* Test: It should return text that counts from 0 up to what the user entered, replacing numbers that contain '3' as one (or more) of the digits with the phrase "Won't you be my neighbor?", numbers that contains '2' with "Boop!" and '1' with "Beep!, in that order of importance!
 * If the number 5 is inputted, the user could expect to see: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5
 * If the number 13 is inputted, the user gets: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?
 
