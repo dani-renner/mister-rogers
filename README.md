@@ -15,7 +15,7 @@
 
 ## Description
 
-This project uses a form to collect a number from the user. Then the programs uses looping to count up to that number, replacing some of the numbers with alternate phrases.
+This project uses a form to collect a number from the user. Then the program uses looping to count up to that number, replacing some of the numbers with alternate phrases.
 
 ## Setup/Installation Requirements
 
