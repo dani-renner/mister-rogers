@@ -25,10 +25,9 @@ This project uses a form to collect a number from the user. Then the program use
 
 ## Specifications
 
-* Describe: this program uses a function called beepBoop()
-* Test: It should return text that counts from 0 up to what the user entered, replacing numbers that contain '3' as one (or more) of the digits with the phrase "Won't you be my neighbor?", numbers that contains '2' with "Boop!" and '1' with "Beep!, in that order of importance!
-* If the number 5 is inputted, the user could expect to see: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5
-* If the number 13 is inputted, the user gets: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?
+* Describe: beepBoop()
+* Test: Returns a string that counts from 0 up to what the user entered, replacing numbers that contain '3' as one (or more) of the digits with the phrase "Won't you be my neighbor?", numbers that contains '2' as one (or more) of the digits with the phrase "Boop!" and numbers that contain '1' as one (or more) of the digits with the phrase with "Beep!". It maintains a hierarchy within the exception rules (3s trump 2s, which trump 1s).
+* Expect: beepBoop(13).toEqual(["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5", "6", "7", "8", "9", "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?")]
 
 ## License
 
